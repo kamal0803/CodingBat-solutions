@@ -1,1 +1,1 @@
-Solutions to problems on codingbat.com
+Solutions to problems on http://codingbat.com
