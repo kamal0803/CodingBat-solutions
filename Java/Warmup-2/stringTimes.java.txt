@@ -1,0 +1,8 @@
+public String stringTimes(String str, int n) {
+  
+  String str1="";
+  for(int i=0;i<n;i++){
+    str1=str1+str;
+  }
+  return str1;
+}
