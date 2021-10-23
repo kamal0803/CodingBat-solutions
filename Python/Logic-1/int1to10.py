@@ -8,9 +8,4 @@ in1to10(11, True) → True
 """
 
 def in1to10(n, outside_mode):
-  if outside_mode==False and n>=1 and n<=10:
-    return True
-  elif outside_mode==True and (n<=1 or n>=10):
-    return True
-  else:
-    return False
+  return (not outside_mode and n>=1 and n<=10) or (outside_mode and (n<=1 or n>=10))
