@@ -12,15 +12,6 @@ pos_neg(-4, -5, True) → True
 
 def pos_neg(a, b, negative):
   if negative:
-    if a<0 and b<0:
-      return True
-    else:
-      return False
-  
+    return a<0 and b<0
   else:
-    if a<0 and b<0:
-      return False
-    elif a>0 and b>0:
-      return False
-    else:
-      return True
+    return not ((a<0 and b<0) or (a>0 and b>0))

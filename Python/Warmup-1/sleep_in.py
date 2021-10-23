@@ -7,16 +7,6 @@ sleep_in(True, False) → False
 sleep_in(False, True) → True
 
 """
-def sleep_in(weekday, vacation):
-  
-  if weekday==False or vacation==True:
-    return True
-  else:
-    return False
 
-"""
-  if not weekday or vacation:
-    return True
-  else
-    return False
-"""
+def sleep_in(weekday, vacation):
+  return (not weekday or vacation)
